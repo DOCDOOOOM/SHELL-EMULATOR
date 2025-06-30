@@ -55,7 +55,7 @@ SHELL/
 ```
 2. **Build using Makefile**
 ```bash
-      mingw32-make
+   mingw32-make
 ```
 3. **Run the shell**
 ```bash
