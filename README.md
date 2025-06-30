@@ -49,24 +49,18 @@ SHELL/
 
 ### BUILD INSTRUCTION
 
-Clone this repo
+1. **Clone this repo**
 ```bash
- git clone https://github.com/DOCDOOOOM/SHELL-EMULATOR.git
+   git clone https://github.com/DOCDOOOOM/SHELL-EMULATOR.git
 ```
-2. **Navigate to the shell directory**
-   ```bash
-   cd shell
-   ```
-
-3. **Compile the project**
-   ```bash
-   make
-   ```
-
-4. **Run Skull Shell**
-   ```bash
-   ./skull
-   ```
+2. **Build using Makefile**
+```bash
+      mingw32-make
+```
+3. **Run the shell**
+```bash
+   ./shell.exe
+```
 
 ---
 
