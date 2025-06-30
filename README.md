@@ -7,13 +7,13 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 
 ## 🖼 Features
 
-✅ **Graphical Terminal Interface** using SDL2  
-✅ **Real-time Command Input** with live rendering  
-✅ **Supports Windows Shell Commands** - `dir`, `echo`, `ipconfig`, etc.  
-✅ **Command Output Display** with scroll-like interface  
-✅ **Clean Font Rendering** using SDL2_ttf  
-✅ **History Tracking** (internally)  
-✅ **Works on Windows** using MinGW-w64 toolchain
+✅ **Graphical Terminal Interface**  using SDL2  
+✅ **Real-time Command Input**  with live rendering  
+✅ **Supports Windows Shell Commands**  - `dir`, `echo`, `ipconfig`, etc.  
+✅ **Command Output Display**  with scroll-like interface  
+✅ **Clean Font Rendering**  using SDL2_ttf  
+✅ **History Tracking**  (internally)  
+✅ **Works on Windows**  using MinGW-w64 toolchain
 
 ---
 
@@ -31,15 +31,21 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 ## 📂 Folder Structure
 
 ```
-/SHELL
-├── main.cpp              // SDL entry point + loop
-├── shell.cpp             // Command parsing and execution
-├── gui.cpp               // GUI input, rendering, and SDL logic
-├── gui.h
-├── shell.h
-├── Makefile              // Build automation using MinGW-w64
-└── assets/
-    └── font.ttf          // Font I used in the GUI
+SHELL/
+├── assets/                # Contains font files and other resources (like preview.png or fonts)
+├── Makefile               # Build script using MinGW (compile all .cpp files)
+├── SDL2.dll               # SDL2 runtime library required for execution
+├── SDL2_ttf.dll           # SDL2_ttf runtime for rendering fonts
+├── gui.cpp                # Handles rendering GUI, input box, and terminal display
+├── gui.h                  # Header file for GUI functions and state
+├── main.cpp               # Entry point: initializes SDL and starts GUI loop
+├── shell.cpp              # Executes commands via _popen and returns output
+├── shell.h                # Header for shell command execution logic
+├── shell.exe              # Final compiled SDL shell executable
+├── *.o                    # Object files generated during compilation
+├── LICENSE                # License file (MIT, GPL, etc.)
+└── README.md              # Project description, instructions, features, and credits
+
 ```
 
 
@@ -49,10 +55,10 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 
 ### 📦 Requirements
 
-- SDL2 development libraries
-- SDL2_ttf development libraries
-- MinGW-w64 (64-bit)
-- A monospace `.ttf` font (already included)
+- **SDL2**  development libraries
+- **SDL2_ttf**  development libraries
+- **MinGW-w64**  (64-bit)
+- A  **Font.ttf**  file  (already included)
 
 ---
 
