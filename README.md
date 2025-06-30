@@ -1,5 +1,5 @@
-# SHELL-EMULATOR
-# ⚡ A GUI-Based Shell Emulator (SDL2)
+# ⚡ SHELL-EMULATOR
+# A GUI-Based Shell Emulator (SDL2)
 
 It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf** that simulates a terminal inside a clean, responsive graphical user interface. It combines real shell power with GUI design to deliver a minimalist yet powerful terminal experience on Windows.
 
