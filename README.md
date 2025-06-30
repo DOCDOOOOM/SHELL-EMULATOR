@@ -61,16 +61,25 @@ SHELL/
 
 ---
 
-### ⚙️ Build Instructions
 
-```bash
-# Clone this repo
-git clone https://github.com/yourusername/ShellForge.git
-cd ShellForge
+✨ Planned Features
+ Command history navigation (↑ ↓)
 
-# Build using Makefile
-mingw32-make
+ Scrollback (mouse and keyboard)
 
-# Run the shell
-./shell_gui.exe
+ Built-in commands (cd, clear, exit, etc.)
 
+ Syntax highlighting
+
+ Auto-completion (TAB)
+
+ Custom shell scripting support
+
+📜 License
+MIT License — feel free to use and modify.
+
+🤝 Contributing
+Pull requests, feedback, and suggestions are welcome! If you find bugs or have cool feature ideas, open an issue or a PR.
+
+
+Made with 💻 by [DAKSH VERMA] — Follow me on GitHub for more cool C++/SDL projects.
