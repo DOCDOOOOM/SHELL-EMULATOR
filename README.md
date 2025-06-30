@@ -35,6 +35,8 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 ---
 
 ## 📂 Folder Structure
+
+```
 /SHELL
 ├── main.cpp              // SDL entry point + loop
 ├── shell.cpp             // Shell logic (parsing, executing)
@@ -44,7 +46,7 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 ├── Makefile              // Or tasks.json / .vscode for VS Code
 └── assets/
     └── font.ttf          // Font file for SDL_ttf
-
+```
 
 
 ---
