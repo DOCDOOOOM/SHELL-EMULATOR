@@ -32,19 +32,19 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 
 ```
 SHELL/
-├── assets/                # Contains font files and other resources (like preview.png or fonts)
-├── Makefile               # Build script using MinGW (compile all .cpp files)
-├── SDL2.dll               # SDL2 runtime library required for execution
-├── SDL2_ttf.dll           # SDL2_ttf runtime for rendering fonts
-├── gui.cpp                # Handles rendering GUI, input box, and terminal display
-├── gui.h                  # Header file for GUI functions and state
-├── main.cpp               # Entry point: initializes SDL and starts GUI loop
-├── shell.cpp              # Executes commands via _popen and returns output
-├── shell.h                # Header for shell command execution logic
-├── shell.exe              # Final compiled SDL shell executable
-├── *.o                    # Object files generated during compilation
-├── LICENSE                # License file (MIT, GPL, etc.)
-└── README.md              # Project description, instructions, features, and credits
+├── assets/                # Fonts & UI resources
+├── Makefile               # Build instructions
+├── SDL2.dll               # SDL2 runtime
+├── SDL2_ttf.dll           # Font rendering runtime
+├── gui.cpp                # GUI rendering & input
+├── gui.h                  # GUI rendering & input
+├── main.cpp               # Program entry point
+├── shell.cpp              # Command execution logic
+├── shell.h                # Command execution logic
+├── shell.exe              # Final executable
+├── *.o                    # Build artifacts
+├── LICENSE                # Project license
+└── README.md              # Project info & usage
 
 ```
 
