@@ -62,7 +62,7 @@ SHELL/
 ---
 
 
-✨ Planned Features
+## ✨ Planned Features
  Command history navigation (↑ ↓)
 
  Scrollback (mouse and keyboard)
@@ -75,11 +75,17 @@ SHELL/
 
  Custom shell scripting support
 
-📜 License
+ ---
+
+## 📜 License
 MIT License — feel free to use and modify.
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 Pull requests, feedback, and suggestions are welcome! If you find bugs or have cool feature ideas, open an issue or a PR.
 
+---
 
-Made with 💻 by [DAKSH VERMA] — Follow me on GitHub for more cool C++/SDL projects.
+
+### Made with 💻 by [DAKSH VERMA] — Follow me on GitHub for more cool C++/SDL projects.
