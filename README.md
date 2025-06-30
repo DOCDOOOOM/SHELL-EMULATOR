@@ -47,6 +47,26 @@ SHELL/
 
 ```
 
+### BUILD INSTRUCTION
+
+Clone this repo
+```bash
+cd git clone https://github.com/DOCDOOOOM/SHELL-EMULATOR.git
+```
+2. **Navigate to the shell directory**
+   ```bash
+   cd shell
+   ```
+
+3. **Compile the project**
+   ```bash
+   make
+   ```
+
+4. **Run Skull Shell**
+   ```bash
+   ./skull
+   ```
 
 ---
 
