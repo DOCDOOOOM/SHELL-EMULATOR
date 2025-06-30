@@ -63,17 +63,18 @@ SHELL/
 
 
 ## ✨ Planned Features
- Command history navigation (↑ ↓)
+ 
+ ~ Command history navigation (↑ ↓)
 
- Scrollback (mouse and keyboard)
+ ~ Scrollback (mouse and keyboard)
 
- Built-in commands (cd, clear, exit, etc.)
+ ~ Built-in commands (cd, clear, exit, etc.)
 
- Syntax highlighting
+ ~ Syntax highlighting
 
- Auto-completion (TAB)
+ ~ Auto-completion (TAB)
 
- Custom shell scripting support
+ ~ Custom shell scripting support
 
  ---
 
@@ -88,4 +89,4 @@ Pull requests, feedback, and suggestions are welcome! If you find bugs or have c
 ---
 
 
-### Made with 💻 by [DAKSH VERMA] — Follow me on GitHub for more cool C++/SDL projects.
+#### Made by DAKSH VERMA — Follow me on GitHub for more cool C++/SDL projects.
