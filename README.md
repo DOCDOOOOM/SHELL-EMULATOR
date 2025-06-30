@@ -9,7 +9,7 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 
 ✅ **Graphical Terminal Interface** using SDL2  
 ✅ **Real-time Command Input** with live rendering  
-✅ **Supports Windows Shell Commands** (`dir`, `echo`, `ipconfig`, etc.)  
+✅ **Supports Windows Shell Commands** - `dir`, `echo`, `ipconfig`, etc.  
 ✅ **Command Output Display** with scroll-like interface  
 ✅ **Clean Font Rendering** using SDL2_ttf  
 ✅ **History Tracking** (internally)  
