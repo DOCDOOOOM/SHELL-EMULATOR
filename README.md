@@ -27,25 +27,19 @@ It is a **custom shell emulator** built using **C++**, **SDL2**, and **SDL_ttf**
 
 ---
 
-## 🖥 Preview
-
-> ![Shell Screenshot](assets/preview.png)  
-*(Add a screenshot here showing command input/output in your GUI window)*
-
----
 
 ## 📂 Folder Structure
 
 ```
 /SHELL
 ├── main.cpp              // SDL entry point + loop
-├── shell.cpp             // Shell logic (parsing, executing)
-├── gui.cpp               // GUI rendering, input handling
+├── shell.cpp             // Command parsing and execution
+├── gui.cpp               // GUI input, rendering, and SDL logic
 ├── gui.h
 ├── shell.h
-├── Makefile              // Or tasks.json / .vscode for VS Code
+├── Makefile              // Build automation using MinGW-w64
 └── assets/
-    └── font.ttf          // Font file for SDL_ttf
+    └── font.ttf          // Font I used in the GUI
 ```
 
 
