@@ -42,7 +42,6 @@ SHELL/
 ├── shell.cpp              # Command execution logic
 ├── shell.h                # Command execution logic
 ├── shell.exe              # Final executable
-├── *.o                    # Build artifacts
 ├── LICENSE                # Project license
 └── README.md              # Project info & usage
 
