@@ -10,7 +10,6 @@ std::string Shell::execute(const std::string &command)
     history.push_back(command);
     std::stringstream output;
 
-    // Use cmd /c to allow Windows internal commands (like dir, echo, ipconfig)
     std::string fullCommand = "cmd /c " + command;
     FILE *pipe = _popen(fullCommand.c_str(), "r");
 
